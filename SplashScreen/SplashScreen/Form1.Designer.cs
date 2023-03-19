@@ -41,12 +41,12 @@
             progressbar1.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
             progressbar1.AnimationSpeed = 500;
             progressbar1.BackColor = Color.FromArgb(42, 40, 60);
-            progressbar1.Font = new Font("Comic Sans MS", 39.75F, FontStyle.Bold, GraphicsUnit.Point);
-            progressbar1.ForeColor = Color.FromArgb(85, 213, 219);
+            progressbar1.Font = new Font("Comic Sans MS", 38.25F, FontStyle.Bold, GraphicsUnit.Point);
+            progressbar1.ForeColor = Color.Aqua;
             progressbar1.InnerColor = Color.FromArgb(42, 40, 60);
             progressbar1.InnerMargin = 2;
             progressbar1.InnerWidth = -1;
-            progressbar1.Location = new Point(50, 98);
+            progressbar1.Location = new Point(50, 114);
             progressbar1.MarqueeAnimationSpeed = 2000;
             progressbar1.Name = "progressbar1";
             progressbar1.OuterColor = Color.FromArgb(26, 28, 43);
@@ -72,18 +72,18 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Comic Sans MS", 24.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = Color.FromArgb(85, 213, 219);
-            label1.Location = new Point(75, 21);
+            label1.ForeColor = Color.Aqua;
+            label1.Location = new Point(50, 26);
             label1.Name = "label1";
-            label1.Size = new Size(96, 45);
+            label1.Size = new Size(159, 45);
             label1.TabIndex = 1;
-            label1.Text = "Text";
+            label1.Text = "Welcome";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Comic Sans MS", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.ForeColor = Color.FromArgb(85, 213, 219);
+            label2.ForeColor = Color.Aqua;
             label2.Location = new Point(75, 308);
             label2.Name = "label2";
             label2.Size = new Size(112, 29);
@@ -94,7 +94,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Comic Sans MS", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.ForeColor = Color.FromArgb(85, 213, 219);
+            label3.ForeColor = Color.Aqua;
             label3.Location = new Point(13, 351);
             label3.Name = "label3";
             label3.Size = new Size(230, 18);
