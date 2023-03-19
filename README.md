@@ -4,4 +4,4 @@
 
 
 
-Nuget Package: CircularProgressBar
+Nuget Package: CircularProgressBar 2.2.0
