@@ -6,6 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
+      "SplashScreen/1.0.0": {
+        "dependencies": {
+          "CircularProgressBar": "2.8.0.16"
+        },
+        "runtime": {
+          "SplashScreen.dll": {}
+        }
+      },
       "CircularProgressBar/2.8.0.16": {
         "dependencies": {
           "WinFormAnimation": "1.6.0.4"
@@ -28,6 +36,11 @@
     }
   },
   "libraries": {
+    "SplashScreen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "CircularProgressBar/2.8.0.16": {
       "type": "package",
       "serviceable": true,

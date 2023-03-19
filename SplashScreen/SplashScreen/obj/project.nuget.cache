@@ -1,8 +1,32 @@
 {
   "version": 2,
-  "dgSpecHash": "vtLovwgU5hE/vJsq82IEZxiNEWMIu4eYwZcaPrTDhxgblE6Nf7oa2QEP9Ai3Em15JuYPcvTkU1XpsN4zQr2HPg==",
+  "dgSpecHash": "Oua4vCxRSdYeZuLb+fuOuSNgnJvZN9H8emjQCGe22GKUNo56pKtlCkxdEv4JHV/NyJXNxrFK9wjFZ3UuLLMvNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KONTORIAS\\source\\repos\\SplashScreenC-\\SplashScreen\\SplashScreen\\SplashScreen.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "E:\\repos\\SplashScreen\\SplashScreen\\SplashScreen.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KONTORIAS\\.nuget\\packages\\circularprogressbar\\2.8.0.16\\circularprogressbar.2.8.0.16.nupkg.sha512",
+    "C:\\Users\\KONTORIAS\\.nuget\\packages\\winformanimation\\1.6.0.4\\winformanimation.1.6.0.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CircularProgressBar 2.8.0.16' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CircularProgressBar",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WinFormAnimation 1.6.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WinFormAnimation",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }
